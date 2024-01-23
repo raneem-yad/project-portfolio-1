@@ -123,6 +123,43 @@ main{
     color: #263b27;
 }
 
+/* recipies section  */
+.cta-button {
+    display: inline-block;
+    background-color: #4CAF50; /* Primary green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; /* Removes underline from links */
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #388E3C; /* Slightly darker green for hover effect */
+}
+#circle-cover-bg{
+    background: url("../images/recipes-rice.jpg") no-repeat top center /cover ;
+    border: 1px solid #1976D2;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefit-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* footer styling */
 footer{
     background-color:#81C784;
@@ -207,11 +244,7 @@ footer{
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 80px;
-    }
+    
     
     /* hero */
     #cover-text{
@@ -219,6 +252,8 @@ footer{
         bottom: 6em;
         left: 20px;
     }
+
+    
 
     /* footer  */
     .footer__top-section{
