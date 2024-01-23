@@ -191,21 +191,24 @@ footer{
     }
 
     /* footer  */
-    footer{
-        background-color:#81C784;
+    .footer__top-section{
+        
        
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        line-height: 2rem;
+        
     }
 
     .footer__buttom-section{
-        background-color:#6ea670;
-        width: 100vw;
+       
+        
         
         flex-direction: row;
         justify-content: space-between;
+    }
+    .footer__buttom-section p {
+        flex: 1 0 auto;
     }
     
 
