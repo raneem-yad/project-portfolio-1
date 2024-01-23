@@ -91,7 +91,16 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
+/*  main Styling  */
 
+main{
+    flex: 1;
+}
+
+/* footer styling */
+footer{
+    background-color:#444
+}
 
 
 
