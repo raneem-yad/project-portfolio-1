@@ -26,12 +26,12 @@ h1,h2,h3 {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #81C784;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #1976D2;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -64,17 +64,17 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #1976D2;
 }
 
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: #81C784;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #1976D2;
     display: none;
     top: 100%;
 }
@@ -99,7 +99,7 @@ main{
 
 /* footer styling */
 footer{
-    background-color:#444
+    background-color:#81C784
 }
 
 
@@ -150,7 +150,7 @@ footer{
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #1976D2;
     }
 
 }
