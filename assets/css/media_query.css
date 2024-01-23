@@ -1,0 +1,124 @@
+/* adding media-query */
+@media screen and (min-width: 768px){
+    
+    nav {
+        position: relative;
+        display: block;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        
+    }
+    #menu {
+        display: flex;
+        
+    }
+    #menu > li {
+        margin-right: 2rem;
+     }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    
+    
+    /* hero */
+    #cover-text{
+        width: 300px;
+        bottom: 6em;
+        left: 20px;
+    }
+
+    /* services section  */
+    .services{
+        margin: 60px 0;
+        padding: 35px ;
+        display: flex;
+        align-items: center;
+    }
+
+    .services-space{
+        width: 2rem;
+    }
+
+    .services-image-cover{
+        border-radius: 20%;
+        max-width: 450px;
+        max-height: 350px;
+    }
+    #services-content-flip{
+        order: 1;
+    }
+    #services-image-flip{
+        order: -1;
+    }
+    
+    
+
+    /* footer  */
+    .footer__top-section{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer__buttom-section p {
+        flex: 1 0 auto;
+    }
+  
+}
+    
+    
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #1976D2;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+    #cover-text {
+        bottom: 12em;
+    }
+    .services-space{
+        width: 18rem;
+    }
+    
+    
+}
+
+@media screen and (min-width:1440px) {
+    
+    #cover-text {
+        bottom: 20em;
+    }
+    .services-space{
+        width: 50rem;
+    }
+    .services-image-cover {
+        max-width: 550px;
+        max-height: 400px;
+    }
+    
+    
+}
+
+@media screen and (min-width:2560px) {
+    
+    #cover-text {
+        bottom: 60em;
+    }
+    .services{
+        margin: 60px 400px 
+    }
+    .services-space{
+        width: 50rem;
+    }
+    
+}
