@@ -195,6 +195,7 @@ main{
 /* footer styling */
 footer{
     background-color:#81C784;
+    box-shadow: 0 -2px 2px #1976D2;
 }
 .footer__top-section{
     padding: 10px;
