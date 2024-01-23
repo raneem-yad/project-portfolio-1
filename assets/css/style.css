@@ -178,6 +178,14 @@ main{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+#image-exercises{
+    background: url("../images/sport2.jpg") no-repeat top center /cover ;
+}
+
+#image-why-us{
+    background: url("../images/hero-4.jpg") no-repeat top center /cover ;
+}
+
 .services-image{
     display: flex;
     justify-content: center;
