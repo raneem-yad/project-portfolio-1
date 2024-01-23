@@ -41,9 +41,6 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-header img {
-    width: 2em;
-}
 
 #logo{
     display: flex;
