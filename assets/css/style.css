@@ -192,18 +192,12 @@ footer{
 
     /* footer  */
     .footer__top-section{
-        
-       
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        
     }
 
     .footer__buttom-section{
-       
-        
-        
         flex-direction: row;
         justify-content: space-between;
     }
