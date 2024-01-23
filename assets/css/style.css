@@ -123,10 +123,32 @@ main{
     color: #263b27;
 }
 
-/* recipies section  */
+/* services section  */
+.services {
+    padding: 10px;
+    
+}
+.services-content{
+    text-align: center;
+    line-height: 2em;
+    margin: 10px 0; 
+}
+
+.services-content h2{
+    text-decoration: underline;
+}
+
+.services-content p {
+    padding: 10px 0;
+}
+
+.services-image{
+    display: flex;
+    justify-content: center;
+}
 .cta-button {
     display: inline-block;
-    background-color: #4CAF50; /* Primary green color */
+    background-color: #4caf50; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -136,25 +158,27 @@ main{
     letter-spacing: 1px;
     text-align: center;
     cursor: pointer;
-    text-decoration: none; /* Removes underline from links */
+    text-decoration: none; 
     transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 10px rgba(76, 175, 80, 0.5);
 }
 
 .cta-button:hover {
     background-color: #388E3C; /* Slightly darker green for hover effect */
 }
-#circle-cover-bg{
+.services-image-cover{
     background: url("../images/recipes-rice.jpg") no-repeat top center /cover ;
-    border: 1px solid #1976D2;
+    /* border: 1px solid #1976D2; */
     width: 90vw;
     height: 90vw;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
-#benefit-image{
+.services-image{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,10 +238,7 @@ footer{
 /* adding media-query */
 
 @media screen and (min-width: 576px){
-    #photos{
-        column-count: 2;
-        column-gap: 0;
-    }
+
 }
 @media screen and (min-width: 768px){
     
@@ -251,6 +272,24 @@ footer{
         width: 300px;
         bottom: 6em;
         left: 20px;
+    }
+
+    /* services section  */
+    .services{
+        margin: 60px 0;
+        padding: 35px ;
+        display: flex;
+        align-items: center;
+    }
+
+    .services-space{
+        width: 30rem;
+    }
+
+    .services-image-cover{
+        border-radius: 20%;
+        max-width: 450px;
+        max-height: 350px;
     }
 
     
