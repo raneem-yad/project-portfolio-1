@@ -192,6 +192,57 @@ main{
     align-items: center;
 }
 
+
+/* SERVICES PAGE  */
+.services-page{
+    margin-top: 60px;
+}
+
+.service-title{
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.service-title h2{
+    text-decoration: underline;
+}
+
+.articles{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.article-card__body {
+    padding: 8px;
+}
+
+.article-card__img {
+    max-width: 100%;
+    border-bottom: 4px solid #1976d2b5;
+}
+
+.article-card__header{
+    display: flex;
+    justify-content: space-between;
+}
+.article-card__content >p {
+    margin-top: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #575e58;
+}
+
+
 /* footer styling */
 footer{
     background-color:#81C784;
