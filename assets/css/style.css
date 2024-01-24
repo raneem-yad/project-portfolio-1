@@ -51,6 +51,7 @@ header a {
 #logo a{
     font-size: 1rem;
     line-height:3rem;
+    padding-left: 5px;
 }
 
 #menu {
@@ -410,8 +411,8 @@ footer{
     /* hero */
     #cover-text{
         width: 300px;
-        bottom: 6em;
-        left: 20px;
+        left: 50px;
+        bottom: 260px;
     }
 
     /* services-homepage section  */
@@ -498,9 +499,6 @@ footer{
 }
 
 @media screen and (min-width:1024px) {
-    #cover-text {
-        bottom: 12em;
-    }
     .services-space{
         width: 18rem;
     }
@@ -512,7 +510,8 @@ footer{
     
     /* homepage services section  */
     #cover-text {
-        bottom: 20em;
+        bottom: unset;
+        top: 15rem;
     }
     .services-space{
         width: 50rem;
@@ -537,9 +536,6 @@ footer{
 
 @media screen and (min-width:2560px) {
     
-    #cover-text {
-        bottom: 60em;
-    }
     .services{
         margin: 60px 400px 
     }
