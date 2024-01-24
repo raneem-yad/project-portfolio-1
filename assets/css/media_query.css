@@ -33,7 +33,7 @@
         left: 20px;
     }
 
-    /* services section  */
+    /* services-homepage section  */
     .services{
         margin: 60px 0;
         padding: 35px ;
@@ -58,7 +58,6 @@
     }
 
     /* contact us page  */
-    /* Form */
     #signup {
         background-position: center;
         position: relative;
@@ -78,6 +77,14 @@
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
+    }
+
+    /* services page  */
+    .articles {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
     }
     
     
