@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #406342;
+    color: #1d261d;
     font-family: 'Roboto', sans-serif;
 }
 h1,h2,h3 {
@@ -149,7 +149,7 @@ main{
 .cta-button {
     display: inline-block;
     background-color: #4caf50; 
-    color: white;
+    color: #000;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -160,7 +160,7 @@ main{
     cursor: pointer;
     text-decoration: none; 
     transition: background-color 0.3s ease;
-    box-shadow: 5px 5px 10px rgba(76, 175, 80, 0.5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .cta-button:hover {
@@ -238,12 +238,17 @@ footer{
 #social-media i{
     font-size: 160%;
     padding: 5;
-    color: #406342;
+    color: #263b27;
 }
 
-#important-links li{
+#important-links li {
+    padding: 8px 0;
+}
+
+#important-links  a{
     text-decoration: none;
     color: inherit;
+    
 }
 
 
