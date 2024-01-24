@@ -1,0 +1,43 @@
+#recipes{
+    margin-top: 60px;
+}
+
+.service-title{
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.service-title h2{
+    text-decoration: underline;
+}
+
+.articles{
+    padding: 10px;
+}
+
+.article-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+.article-card__body {
+    padding: 3px;
+}
+
+.article-card__img {
+    /* width: 90vw;
+    height: 90vw;
+    border-radius: 20px 20px 0 0;
+    max-width: 300px;
+    max-height: 300px; */
+    max-width: 100%;
+    
+}
+
+.article-card__header{
+    display: flex;
+    justify-content: space-between;
+}
