@@ -28,20 +28,20 @@
 }
 
 .article-card__body {
-    padding: 3px;
+    padding: 8px;
 }
 
 .article-card__img {
-    /* width: 90vw;
-    height: 90vw;
-    border-radius: 20px 20px 0 0;
-    max-width: 300px;
-    max-height: 300px; */
     max-width: 100%;
-    
+    border-bottom: 1px solid #1976d2b5;
 }
 
 .article-card__header{
     display: flex;
     justify-content: space-between;
+}
+.article-card__content >p {
+    margin-top: 16px;
+    font-family: 'Lato', sans-serif;
+    color: #575e58;
 }

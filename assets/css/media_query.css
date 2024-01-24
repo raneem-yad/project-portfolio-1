@@ -80,6 +80,10 @@
     }
 
     /* services page  */
+    .service-title p{
+        margin: auto 40px;
+        padding: 15px 0 ;
+    }
     .articles {
         flex-direction: row;
         flex-wrap: wrap;
@@ -140,6 +144,11 @@
     /* contact us page  */
     #signup {
         height: 100vh;
+    }
+
+    /* services page  */
+    .service-title p{
+        margin: auto 80px;
     }
     
     
