@@ -108,7 +108,7 @@ main{
 }
 
 #cover-text{
-    background-color:  rgb(109 167 112 / 80%);
+    background-color:  rgba(109, 167, 112, 0.8);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
