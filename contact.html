@@ -41,7 +41,7 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html" > Home</a></li>
-                <li><a href="articles.html" > Articles </a></li>
+                <li><a href="services.html"> Services </a></li>
                 <li><a href="contact.html" class="active"> Contact</a></li>
             </ul>
         </nav>
@@ -51,30 +51,18 @@
         <section id="signup">
             <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2><i class="fa-solid fa-seedling"></i> Contact Us <i class="fa-solid fa-seedling"></i></h2>
-                <label for="first_name">First Name</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
+        
+                <input type="text" name="full_name" placeholder="Full Name" id="full_name" class="text-input" required>
                 <br>
-                <label for="last_name">Last Name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                
+                <input type="email" name="email_address" id="email_address" placeholder="Email Address" class="text-input" required>
                 <br>
-                <label for="email_address">Email Address</label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required>
+
+                <input type="text" name="msg_title" id="msg_title" placeholder="Message Title" class="text-input" required>
                 <br>
-                <div class="radio-buttons">
-                    <div>
-                        <label for="road">Road</label>
-                        <input type="radio" name="running_preference" id="road" value="road" required checked>
-                    </div>
-                    <div>
-                        <label for="trail">Trail</label>
-                        <input type="radio" name="running_preference" id="trail" value="trail" required>
-                    </div>
-                    <div>
-                        <label for="both">Both</label>
-                        <input type="radio" name="running_preference" id="both" value="both" required>
-                    </div>
-                </div>
-                <button type="submit" class="join-button">Let's Run!</button>
+                <textarea name="message" rows="4" cols="50" placeholder="We happy to hear from you" required></textarea>
+                
+                <button type="submit" class="join-button">SEND</button>
             </form>
         </section>
     </main>
