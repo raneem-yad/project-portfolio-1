@@ -33,7 +33,7 @@
 
 .article-card__img {
     max-width: 100%;
-    border-bottom: 1px solid #1976d2b5;
+    border-bottom: 4px solid #1976d2b5;
 }
 
 .article-card__header{
