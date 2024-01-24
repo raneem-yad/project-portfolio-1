@@ -102,7 +102,7 @@ main{
 #hero{
     width: 100%;
     height: 600px;
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('../images/hero-3.jpg') no-repeat center center / cover;
+    background:  url('../images/hero-3.webp') no-repeat center center / cover;
     /* Other background properties */
 
 }
@@ -167,7 +167,7 @@ main{
     background-color: #388E3C; /* Slightly darker green for hover effect */
 }
 .services-image-cover{
-    background: url("../images/recipes-rice.jpg") no-repeat top center /cover ;
+    background: url("../images/recipes-rice.webp") no-repeat top center /cover ;
     /* border: 1px solid #1976D2; */
     width: 90vw;
     height: 90vw;
@@ -179,11 +179,11 @@ main{
 }
 
 #image-exercises{
-    background: url("../images/sport2.jpg") no-repeat top center /cover ;
+    background: url("../images/sport2.webp") no-repeat top center /cover ;
 }
 
 #image-why-us{
-    background: url("../images/hero-4.jpg") no-repeat top center /cover ;
+    background: url("../images/hero-4.webp") no-repeat top center /cover ;
 }
 
 .services-image{
@@ -239,6 +239,11 @@ footer{
     font-size: 160%;
     padding: 5;
     color: #406342;
+}
+
+#important-links li{
+    text-decoration: none;
+    color: inherit;
 }
 
 
