@@ -80,7 +80,43 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 - Social Media Integration: Features that allow easy sharing of content to social media platforms, encouraging user interaction. Every Link has the rel="noopener" attribute for security reasons.
 
+## Technologies Used
 
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the project's code after being pushed from Git.
+1. [balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes.
+
+<br>
+
+
+## Testing
+
+### General Testing
+
+1. The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Franeem-yad.github.io%2Fproject-portfolio-1%2Findex.html)
+    - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Franeem-yad.github.io%2Fproject-portfolio-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+
+3. Resolution and Scaling were tested with Google Dev tools down to the lowest width device (Galaxy Fold, 280px) to ensure the website works flawlessly on all resolutions 280px and above.
+
+4. The Contact Us Page was tested with empty required First/Last Name and/or Email fields, entering no Email in the Email field, also with message title and with and without comments. The Form always gave the correct feedback when something was missing. When all required Information was provided, it then is posted to Code Institute's Form Dump Page.
+        <h2><img src="./assets/images/readme/contact-submission.png" alt="Results on Code Institute's Form Dump Page after submitting them on the contact us page"></h2>
+<br>
 
 
 ## Table of Contents
