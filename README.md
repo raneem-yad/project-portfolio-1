@@ -169,29 +169,71 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 <br>
 
-## Table of Contents
-1. [Project Goals](#project-goals)
-- Business Goals
-- User Goals
-2. [User Experience](#user-experience)
-- User Stories
-- Design and Structure
-- Wireframes
-3. [Features](#features)
-- Must Have (current features)
-- Could Have
-- Won't Have (for now)
-4. [Technologies Used](#technologies-used)
-5. [Testing](#testing)
-- User stories tests
-- Functionality
-- HTML Validation
-- CSS Validation
-- JS Validation
-- Python Validation
-- Accessibility and Performance
-- Browser Compatibility
-- Device Compatibility
-6. [Bugs](#bugs)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/raneem-yad/project-portfolio-1)
+2. At the top of the Repository (not the top of the page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the drop-down called "None" and select "Main Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://raneem-yad.github.io/project-portfolio-1/) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/raneem-yad/project-portfolio-1)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/raneem-yad/project-portfolio-1)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+<br>
+
+## Credits
+
+### Code
+
+-   The full-screen hero image code came originally from the [Love Running Project at Code Institute](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode). The same goes for the Contact Us Page code. However, none of these  remain in their original form because they have been modified and styled differently in several aspects to fit the site's needs.
+
+### Bug issues
+- Stack overflow for helping me to figure out how to put an overlay on an image![website](https://stackoverflow.com/)
+
+### Content
+
+-   All content was written by the developer, but they were modified and improved with helping of ChatGPT
+
+
+### Images and Media
+-   The website logo was also created by [chatGpt](https://chat.openai.com).
+-   All images were taken from [pexel](https://www.pexels.com/).
+-   Pexel Provides high-resolution images which affect the performance so I used a converter to convert them to Webp using [convertio](https://convertio.co/webp-converter/)
+-   Card design inspired from [codepen](https://codepen.io/1bbnuuu/pen/mdoOKGO).
+-   After creating the logo images I converted them to favicon using [Favicon converter] (https://favicon.io/favicon-converter/)
+ 
+
+### Readme
+
+-   The Basic Structure of the Readme was taken from [Code Institute's Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME/blob/master/README.md).
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+-   My Peers in Code Institute's Slack channel for their feedback.
+-   My spouse for supporting me the whole time.
+
+
