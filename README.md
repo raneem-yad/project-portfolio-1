@@ -37,16 +37,26 @@ At its core, your website is more than just a collection of health tips; it's a 
    
 
 <br>
- ### User stories
+ *  ### User stories
 
     -   ####  Visitor Goals
 
-        1. As a  Visitor, I want to easily understand the main purpose of the site and learn more about the story of Hachiko.
-        2. As a  Visitor, I want to be able to easily navigate through the site to find content.
+        1. As a Visitor, I want to easily understand the main purpose of the site and learn more about the story of Hachiko.
+        2. As a Visitor, I want to be able to easily navigate through the site to find content.
         3. As a visitor, I want to see the all articles that the website provides, So that I can educate myself more on healthy habits.
         4. As a visitor, I want to add my comments on articles, So that I can communicate with the Health Community. (extra feature in the future)
         5. As a visitor, I want to be able to contact the Website, So that can get in touch with the app.
 
+
+<br>
+*   ### <a name="wireframes">Wireframes</a>
+    -   Home Page Wireframe
+        <h2><img src="./assets/images/readme/homepage-website.png" alt="Wireframe of the Index page on desktop devices"></h2><br>
+    -   Articles Page Wireframe
+        <h2><img src="./assets/images/readme/Recipes-website.png" alt="Wireframe of the Articles page on desktop devices"></h2><br>
+    -   Mobile Wireframe
+        <h2><img src="./assets/images/readme/homepage-phone.png" alt=" Wireframe of the Index page on a mobile device"></h2><br>
+    
 
 <br>
 
