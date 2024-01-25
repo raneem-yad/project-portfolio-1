@@ -1,4 +1,4 @@
-<h1 align="center"><a name="top">Healthy Hub</a></h1>
+<h1 align="center"><a name="top">HEALTHY HUB</a></h1>
 
 [View the live project here.](https://raneem-yad.github.io/project-portfolio-1/)
 
@@ -8,6 +8,22 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 
 <h2 align="center"><img src="./assets/images/readme/website-preview.png" alt="The Story of Hachiko Webpage on multiple devices"></h2>
+
+
+## User Experience (UX)
+
+
+*   ### User stories
+
+    -   ####  Visitor Goals
+
+        1. As a Visitor, I want to easily understand the main purpose of the site and learn more about how to be healthy.
+        2. As a Visitor, I want to be able to easily navigate through the site to find content.
+        3. As a visitor, I want to see the all articles that the website provides, So that I can educate myself more on healthy habits.
+        4. As a visitor, I want to be able to contact the Website, So that can send them my feedback.
+
+
+<br>
 
 
 *   ### <a name="design">Design</a>
@@ -30,26 +46,17 @@ At its core, your website is more than just a collection of health tips; it's a 
    <br>
 
    
-*   ### User stories
 
-    -   ####  Visitor Goals
-
-        1. As a Visitor, I want to easily understand the main purpose of the site and learn more about how to be healthy.
-        2. As a Visitor, I want to be able to easily navigate through the site to find content.
-        3. As a visitor, I want to see the all articles that the website provides, So that I can educate myself more on healthy habits.
-        4. As a visitor, I want to be able to contact the Website, So that can send them my feedback.
-
-
-<br>
 
 
 *   ### <a name="wireframes">Wireframes</a>
-    -   Home Page Wireframe
-        <h2><img src="./assets/images/readme/homepage-website.png" alt="Wireframe of the Index page on desktop devices"></h2><br>
-    -   Articles Page Wireframe
-        <h2><img src="./assets/images/readme/Recipes-website.png" alt="Wireframe of the Articles page on desktop devices"></h2><br>
-    -   Mobile Wireframe
-        <h2><img src="./assets/images/readme/homepage-phone.png" alt=" Wireframe of the Index page on a mobile device"></h2><br>
+    -   Home Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/assets/images/readme/homepage-website.png)
+       
+    -   Wellbeing Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/assets/images/readme/Recipes-website.png)
+
+
+    -   Mobile Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/assets/images/readme/homepage-phone.png)
+     
     
 
 <br>
@@ -100,7 +107,7 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 ### General Testing
 
-1. The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+1. The W3C Markup Validator and W3C CSS Validator Wellbeing were used to validate every page of the project to ensure there were no syntax errors in the project.
     - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Franeem-yad.github.io%2Fproject-portfolio-1%2Findex.html)
     - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Franeem-yad.github.io%2Fproject-portfolio-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -141,7 +148,7 @@ At its core, your website is more than just a collection of health tips; it's a 
     3. As a Visitor, I want to see all the articles that the website provides, so that I can educate myself more on healthy habits.
 
         
-        2. A 'Services' option is prominently displayed in the website's navigation bar. This section leads to a lot of articles divided by category.
+        2. A 'Wellbeing' option is prominently displayed in the website's navigation bar. This section leads to a lot of articles divided by category.
         3. The web page will feature three sections, which are clearly labeled in each title section (recipes - exercises - wellness and lifestyle). each section will showcase a comprehensive list of all articles.
         4. Each article in the list will have a brief summary and an engaging thumbnail image to give users an idea of the content before clicking. This feature aids in helping the user find articles that are most relevant to their interests in health and wellness.
       
@@ -211,7 +218,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   The full-screen hero image code came originally from the [Love Running Project at Code Institute](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode). The same goes for the Contact Us Page code. However, none of these  remain in their original form because they have been modified and styled differently in several aspects to fit the site's needs.
 
 ### Bug issues
-- Stack overflow for helping me to figure out how to put an overlay on an image![website](https://stackoverflow.com/)
+- Stack Overflow for helping me to figure out how to put an overlay on an image[website](https://stackoverflow.com/)
 
 ### Content
 
@@ -223,7 +230,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   All images were taken from [pexel](https://www.pexels.com/).
 -   Pexel Provides high-resolution images which affect the performance so I used a converter to convert them to Webp using [convertio](https://convertio.co/webp-converter/)
 -   Card design inspired from [codepen](https://codepen.io/1bbnuuu/pen/mdoOKGO).
--   After creating the logo images I converted them to favicon using [Favicon converter] (https://favicon.io/favicon-converter/)
+-   After creating the logo images I converted them to favicon using [Favicon converter](https://favicon.io/favicon-converter/)
  
 
 ### Readme
