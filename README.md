@@ -9,12 +9,6 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 <h2 align="center"><img src="./assets/images/readme/website-preview.png" alt="The Story of Hachiko Webpage on multiple devices"></h2>
 
-*   ### Five Planes of UXD
-
-    -   #### Strategy Plane
-        Through this platform, I aspire to provide support, practical advice, and a community for those striving to navigate similar paths. My goal is to create a resource that not only informs but also inspires positive lifestyle changes.
-
-<br>
 
 *   ### <a name="design">Design</a>
   
@@ -40,11 +34,10 @@ At its core, your website is more than just a collection of health tips; it's a 
 
     -   ####  Visitor Goals
 
-        1. As a Visitor, I want to easily understand the main purpose of the site and learn more about the story of Hachiko.
+        1. As a Visitor, I want to easily understand the main purpose of the site and learn more about how to be healthy.
         2. As a Visitor, I want to be able to easily navigate through the site to find content.
         3. As a visitor, I want to see the all articles that the website provides, So that I can educate myself more on healthy habits.
-        4. As a visitor, I want to add my comments on articles, So that I can communicate with the Health Community. (extra feature in the future)
-        5. As a visitor, I want to be able to contact the Website, So that can get in touch with the app.
+        4. As a visitor, I want to be able to contact the Website, So that can send them my feedback.
 
 
 <br>
@@ -68,7 +61,7 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 - The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultra wide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
 
-- For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are 3 example resolution screenshots, emulating different sizes on google chrome/mac os.
+- For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are 3 example resolution screenshots, emulating different sizes on Google Chrome/Mac OS.
     2.  Tablet Resolution
             <h2><img src="./assets/images/readme/homepage-tablet.png" alt="Picture of the page on Tablet Resolution"></h2><br>
     3.  Phone Resolution
@@ -116,8 +109,65 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 4. The Contact Us Page was tested with empty required First/Last Name and/or Email fields, entering no Email in the Email field, also with message title and with and without comments. The Form always gave the correct feedback when something was missing. When all required Information was provided, it then is posted to Code Institute's Form Dump Page.
         <h2><img src="./assets/images/readme/contact-submission.png" alt="Results on Code Institute's Form Dump Page after submitting them on the contact us page"></h2>
+
 <br>
 
+
+### Google Lighthouse Testing
+
+1. Results
+- Desktop:
+  <h2><img src="./assets/images/readme/lighthouse-live.png" alt="Results of Google Lighthouse test for Desktop devices"></h2>
+- Mobile:
+  <h2><img src="./assets/images/readme/lighthouse-phone.png" alt="Results of Google Lighthouse test for Mobile devices"></h2>
+
+<br>
+
+
+### Testing User Stories from User Experience (UX) Section
+
+-   ####  Visitor Goals
+
+    1. As a Visitor, I want to easily understand the main purpose of the site and learn more about how to be healthy.
+
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image where a woman relaxed and enjoying the sunlight in a calming way with a captivating title "Discover a healthier you 😃", which should lead to the conclusion that is something related to health.
+        2. The user can scroll down to learn more about the general site, and look up other media resources about it.
+
+    2. As a Visitor, I want to be able to easily navigate throughout the site to find content.
+
+        1. The site has been designed so each page can stand on its own and the visitor can freely choose to switch between each of them at any time. The Navigation points were named fittingly, so the visitor always knows what to expect on that site.
+        2. The Navigation is fixed at the top and scrolls with the page. It is read- and useable at any time.
+      
+    3. As a Visitor, I want to see all the articles that the website provides, so that I can educate myself more on healthy habits.
+
+        
+        2. A 'Services' option is prominently displayed in the website's navigation bar. This section leads to a lot of articles divided by category.
+        3. The web page will feature three sections, which are clearly labeled in each title section (recipes - exercises - wellness and lifestyle). each section will showcase a comprehensive list of all articles.
+        4. Each article in the list will have a brief summary and an engaging thumbnail image to give users an idea of the content before clicking. This feature aids in helping the user find articles that are most relevant to their interests in health and wellness.
+      
+    4. As a Visitor, I want to be able to contact the Website, so that the website can get feedback.
+        1. A 'Contact Us' option is prominently displayed in the website's navigation bar. This section leads to a simple and user-friendly contact form where visitors can submit their feedback, inquiries, or suggestions.
+        2. The contact form will include fields for the visitor’s name, email, message title and message. Additionally, links to the website's social media were provided in the footer for alternative ways of communication.
+
+
+<br>
+
+### Further Testing
+
+-   The Website was tested on Google Chrome,  Microsoft Edge, Firefox and Safari browsers.
+-   The Website was viewed on a variety of devices such as Desktop, Laptop, iPad and different Android and iOS Phones.
+-   Testing was done to ensure that all pages were linking correctly.
+-   Friends were asked to review the site to point out any bugs and/or user experience issues.
+
+<br>
+
+### Known Bugs
+
+-   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k or Ultra Wide Display), the Hero Image is no longer covering 100%. The page is then capped at 2600px and centered in the middle of the window.
+-   On Desktop Devices with a very low resolution (below 280px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
+
+
+<br>
 
 ## Table of Contents
 1. [Project Goals](#project-goals)
