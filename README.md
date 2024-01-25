@@ -1,6 +1,21 @@
-# Protfolio Project 1: HEALTHY HUB
+<h1 align="center"><a name="top">Healthy Hub</a></h1>
 
-<img width="1010" alt="Screenshot 2024-01-24 at 17 15 19" src="https://github.com/raneem-yad/project-portfolio-1/assets/156793552/112ae367-3fe5-4e35-9f2c-b0fc2f491ca9">
+[View the live project here.](https://raneem-yad.github.io/project-portfolio-1/)
+
+The story behind your website revolves around a passionate commitment to promoting a healthier lifestyle. It began with a vision to create a community-driven platform where individuals can discover and share knowledge about healthy habits. Your website serves as a beacon for those seeking guidance on nutritious recipes, effective exercise routines, and holistic wellness practices.
+
+At its core, your website is more than just a collection of health tips; it's a movement towards a more informed and health-conscious society. It's a response to the growing need for accessible, reliable information on living a balanced life in today's fast-paced world. By combining expert advice with community experiences, our site offers a unique, engaging, and supportive environment for individuals at all stages of their health journey.
+
+
+<h2 align="center"><img src="./assets/images/readme/website-preview.png" alt="The Story of Hachiko Webpage on multiple devices"></h2>
+
+## User Experience (UX)
+
+*   ### Five Planes of UXD
+    -   #### Strategy Plane
+        Through this platform, I aspire to provide support, practical advice, and a community for those striving to navigate similar paths. My goal is to create a resource that not only informs but also inspires positive lifestyle changes.
+
+
 
 ## Live Project
 
