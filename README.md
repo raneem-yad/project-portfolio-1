@@ -62,6 +62,26 @@ At its core, your website is more than just a collection of health tips; it's a 
 <br>
 
 
+## Features
+
+###   Responsive on all device sizes
+
+- The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultra wide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
+
+- For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are 3 example resolution screenshots, emulating different sizes on google chrome/mac os.
+    2.  Tablet Resolution
+            <h2><img src="./assets/images/readme/homepage-tablet.png" alt="Picture of the page on Tablet Resolution"></h2><br>
+    3.  Phone Resolution
+            <h2><img src="./assets/images/readme/homepage-large-mobile.png" alt="Picture of the page on Phone Resolution"></h2><br>
+
+###   Interactive elements
+
+- Feedback and Contact Us Forms: For collecting user feedback on various aspects of the website or the topics covered.
+
+- Social Media Integration: Features that allow easy sharing of content to social media platforms, encouraging user interaction. Every Link has the rel="noopener" attribute for security reasons.
+
+
+
 
 ## Table of Contents
 1. [Project Goals](#project-goals)
