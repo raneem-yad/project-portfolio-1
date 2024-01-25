@@ -23,18 +23,30 @@ At its core, your website is more than just a collection of health tips; it's a 
         -   The three main colors used are :
             - Primary Color (#4CAF50): A vibrant shade of green, representing health and vitality.
             - Secondary Color(#2196F3): A calming shade of blue, symbolizing trust and reliability.
-            - Accent Colors (#263b27): darker shades of primary color for accents for making an energetic contrast.
+            - Accent Colors (#263b27): A darker shade of green, providing depth and contrast.
 
 
     -   #### Typography
-        -   The 'Lato' font is used as the Headers content and the 'Roboto' font is for the body content on the website with sans-serif as a fallback font in case the font doesn't import correctly. It is a very easy-to-read font and does fit the site well, not taking away from the overall design or the image/movie elements.
+        -   The website uses 'Lato' for headers and 'Roboto' for body text, with sans-serif as a fallback. These fonts are easy to read and complement the site's design without overshadowing other elements.
 
   
     -   #### Imagery
-        -   The site contains a large background hero image (reduced on smaller devices) to reflect calmness and relaxing spirit to the user. It contains two cover texts and an opening phrase to get the user's attention.  It should be obvious to everyone, what the site is all about.
+        -   The site features a large background hero image in the background (optimized for smaller devices) that embodies calmness and relaxation. It includes engaging text to capture the user's attention, clearly indicating the site's purpose.
         -   The website features a couple of additional pictures on different pages. The articles page contains mostly all the site's advice and what is the website and the contact Page contains a large background hero image to emphasize to the user the importance of this idea. All Pictures have the alt attribute to maximize accessibility.
   
    
+
+<br>
+ ### User stories
+
+    -   ####  Visitor Goals
+
+        1. As a  Visitor, I want to easily understand the main purpose of the site and learn more about the story of Hachiko.
+        2. As a  Visitor, I want to be able to easily navigate through the site to find content.
+        3. As a visitor, I want to see the all articles that the website provides, So that I can educate myself more on healthy habits.
+        4. As a visitor, I want to add my comments on articles, So that I can communicate with the Health Community. (extra feature in the future)
+        5. As a visitor, I want to be able to contact the Website, So that can get in touch with the app.
+
 
 <br>
 
