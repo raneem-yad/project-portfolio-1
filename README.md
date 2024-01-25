@@ -9,9 +9,8 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 <h2 align="center"><img src="./assets/images/readme/website-preview.png" alt="The Story of Hachiko Webpage on multiple devices"></h2>
 
-## User Experience (UX)
-
 *   ### Five Planes of UXD
+
     -   #### Strategy Plane
         Through this platform, I aspire to provide support, practical advice, and a community for those striving to navigate similar paths. My goal is to create a resource that not only informs but also inspires positive lifestyle changes.
 
@@ -34,10 +33,10 @@ At its core, your website is more than just a collection of health tips; it's a 
         -   The site features a large background hero image in the background (optimized for smaller devices) that embodies calmness and relaxation. It includes engaging text to capture the user's attention, clearly indicating the site's purpose.
         -   The website features a couple of additional pictures on different pages. The articles page contains mostly all the site's advice and what is the website and the contact Page contains a large background hero image to emphasize to the user the importance of this idea. All Pictures have the alt attribute to maximize accessibility.
   
-   
+   <br>
 
-<br>
- *  ### User stories
+   
+*   ### User stories
 
     -   ####  Visitor Goals
 
@@ -49,6 +48,8 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 
 <br>
+
+
 *   ### <a name="wireframes">Wireframes</a>
     -   Home Page Wireframe
         <h2><img src="./assets/images/readme/homepage-website.png" alt="Wireframe of the Index page on desktop devices"></h2><br>
