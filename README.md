@@ -80,6 +80,15 @@
 
 - Social Media Integration: Features that allow easy sharing of content to social media platforms, encouraging user interaction. Every Link has the rel="noopener" attribute for security reasons.
 
+###   Future Features
+- Personalized Guidance: Enjoy one-on-one training for tailored recipes and workouts with progress tracking.
+- Articles: detailed articles with a comment feature for community engagement.
+- Workout Videos: Access a range of online workout videos, suitable to beginners and experts.
+- Community Chat Group: Foster discussions, share experiences, and learn from others within our community.
+- Subscription Model: Unlock premium content through monthly/yearly subscriptions to enhance your overall experience.
+
+
+
 ## Technologies Used
 
 ### Languages Used
@@ -118,6 +127,8 @@ html-validator.png
 
     - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Franeem-yad.github.io%2Fproject-portfolio-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+    <h2><img src="./readme/css-validator.png" alt="The W3C Markup Validator and W3C CSS Validator"></h2>
+
 
 3. Resolution and Scaling were tested with Google Dev tools on iPhone SE, 375px to ensure the website works flawlessly on all resolutions 320px and above.
       - iPhone SE resolution - [view](https://github.com/raneem-yad/project-portfolio-1/assets/156793552/5dd02925-3552-4b77-a3c0-557101f2b6f6)
@@ -150,7 +161,7 @@ html-validator.png
         1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image where a woman relaxed and enjoying the sunlight in a calming way with a captivating title "Discover a healthier you 😃", which should lead to the conclusion that is something related to health.
         2. The user can scroll down to learn more about the general site, and look up other media resources about it.
 
-    2. As a Visitor, I want to be able to easily navigate throughout the site to find content.
+    2. As a Visitor, I want to be able to easily navigate through the site to find content.
 
         1. The site has been designed so each page can stand on its own and the visitor can freely choose to switch between each of them at any time. The Navigation points were named fittingly, so the visitor always knows what to expect on that site.
         2. The Navigation is fixed at the top and scrolls with the page. It is read- and useable at any time.
@@ -181,8 +192,39 @@ html-validator.png
 ### Known Bugs
 
 -   On Desktop Devices with a very high resolution (above 2600px wide, e.g. a full screen window on a 4k or Ultra Wide Display), the Hero Image is no longer covering 100%. The page is then capped at 2600px and centered in the middle of the window.
--   On Desktop Devices with a very low resolution (below 280px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
+-   On Desktop Devices with a very low resolution (below 320px wide), the consistency of the website can no longer be upheld. These kind of devices shouldn't be supported by modern operating systems anymore and should be extremely rare.
+-   An horizontal scroll was observed on some devices like (Ubuntu, chrome) and you couldn't reproduce it.
+-   CSS Class Naming Inconsistency: The second page was initially named "services" and later changed to "wellbeing." However, some CSS classes still refer to "services".
+-   Misuse of Commit Messages: Commits with the message "update readme" occurred due to updating the readme online. Future commits will correctly represent changes, avoiding such issues.
 
+
+
+### challenging Bugs
+- FontAwesome Icon Issue:
+      - Description: Attempted to add a FontAwesome icon, but it didn't display on the webpage.
+      - Investigation:
+            - Checked correct import in index.html (confirmed).
+            - Verified the entered code (correct).
+      - Resolution:
+            - Discovered the chosen icon was a pro version, requiring a subscription.
+
+- Logo Image Width Issue:
+      - Description: Despite adjusting width, the logo had extra space.
+      - Cause:
+            - Transparent background in the image resulted in extra padding.
+      
+          
+- Color Overlay on Image:
+    - Description: Wanted to overlay an image with color.
+    - Solution:
+            - Successfully resolved using guidance from [Stack Overflow](https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image).
+
+
+- Image Resolution Impacting Performance:
+      - Description: Images' resolution affected website performance, causing slowness.
+      - Solution:
+            - Improved performance by converting images from PNG and JPG to WebP format using [Convertio](https://convertio.co/webp-converter/).
+  
 
 <br>
 
@@ -225,14 +267,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came originally from the [Love Running Project at Code Institute](https://github.com/raneem-yad/love-running-website). The same goes for the Contact Us Page code. However, none of these  remain in their original form because they have been modified and styled differently in several aspects to fit the site's needs.
+-   The full-screen hero image code and navigation bar came originally from the [Love Running Project at Code Institute](https://github.com/raneem-yad/love-running-website). The same goes for the Contact Us Page code. However, none of these  remain in their original form because they have been modified and styled differently in several aspects to fit the site's needs.
 
-### Bug issues
-- Stack Overflow for helping me to figure out how to put an overlay on an image[website](https://stackoverflow.com/)
 
 ### Content
 
--   All content was written by the developer, but they were modified and improved with helping of ChatGPT
+-   All content was written by [Raneem](https://linkedin.com/in/raneem-yad) and was improved with the assistance of ChatGPT.
 
 
 ### Images and Media
