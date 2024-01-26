@@ -1,10 +1,10 @@
 <h1 align="center"><a name="top">HEALTHY HUB</a></h1>
 
-[View the live project here.](https://raneem-yad.github.io/project-portfolio-1/)
+[View the live project here.](https://raneem-yad.github.io/project-portfolio-1/) 
 
-Healthy Hub is a vibrant community hub where individuals share and learn about healthy living. It's more than just health advice; it's a supportive space combining expert insights and real-life stories, dedicated to helping everyone achieve a balanced, fulfilling lifestyle.
+<p align="center"> Healthy Hub is a vibrant community hub where individuals share and learn about healthy living. It's more than just health advice; it's a supportive space combining expert insights and real-life stories, dedicated to helping everyone achieve a balanced, fulfilling lifestyle.</p>
 
-<h2 align="center"><img src="./assets/images/readme/website-preview.png" alt="The Story of Hachiko Webpage on multiple devices"></h2>
+<h2 align="center"><img src="./readme/website-preview.png" alt="Healthy Hub Webpage on multiple devices"></h2>
 
 
 ## User Experience (UX)
@@ -47,12 +47,14 @@ Healthy Hub is a vibrant community hub where individuals share and learn about h
 
 
 *   ### <a name="wireframes">Wireframes</a>
-    -   Home Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/assets/images/readme/homepage-website.png)
+    -   Home Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/readme/homepage-website.png)
        
-    -   Wellbeing Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/assets/images/readme/Recipes-website.png)
+    -   Wellbeing Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/readme/Recipes-website.png)
 
 
-    -   Mobile Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/assets/images/readme/homepage-phone.png)
+    -   Mobile Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/readme/homepage-phone.png)
+ 
+      The mockups may differ slightly from the actual website as certain features were added, modified, or removed during discussions and implementation.
      
     
 
@@ -62,13 +64,15 @@ Healthy Hub is a vibrant community hub where individuals share and learn about h
 
 ###   Responsive on all device sizes
 
-- The Page adjusts itself to 6 different sizes devices over 2600px wide (4k and Ultra wide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions), 650px-360px (most mobile resolutions) and 360px to around 280px (for very small resolution mobiles).
+- The Page adjusts itself to 5 different sizes devices over 2600px wide (4k and Ultra wide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions) and 650px-360px (most mobile resolutions).
+  
+- The website doesn't support very small resolution mobiles less than 320px.
 
-- For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are 3 example resolution screenshots, emulating different sizes on Google Chrome/Mac OS.
-    2.  Tablet Resolution
-            <h2><img src="./assets/images/readme/homepage-tablet.png" width="450px" alt="Picture of the page on Tablet Resolution"></h2><br>
-    3.  Phone Resolution
-            <h2><img src="./assets/images/readme/homepage-large-mobile.png" width="250px" alt="Picture of the page on Phone Resolution"></h2><br>
+- For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are examples of resolution screenshots, emulating different sizes on Google Chrome/Mac OS.
+    1.  Tablet Resolution
+            <h2><img src="./readme/ipad-resolution"  alt="Picture of the page on Tablet Resolution"></h2><br>
+    2.  Phone Resolution
+            <h2><img src="./readme/phone-resolution.png" alt="Picture of the page on Phone Resolution"></h2><br>
 
 ###   Interactive elements
 
@@ -87,14 +91,17 @@ Healthy Hub is a vibrant community hub where individuals share and learn about h
 
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-1. [Font Awesome:](https://fontawesome.com/)
+2. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
+3. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+4. [GitHub:](https://github.com/)
     - GitHub is used to store the project's code after being pushed from Git.
-1. [balsamiq:](https://balsamiq.com/)
+5. [balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the wireframes.
+6. [VS Code:](https://code.visualstudio.com/)
+    - Visual Studio Code was used as IDE.
+      
 
 <br>
 
@@ -103,14 +110,21 @@ Healthy Hub is a vibrant community hub where individuals share and learn about h
 
 ### General Testing
 
-1. The W3C Markup Validator and W3C CSS Validator Wellbeing were used to validate every page of the project to ensure there were no syntax errors in the project.
-    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Franeem-yad.github.io%2Fproject-portfolio-1%2Findex.html)
+html-validator.png
+1. The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/raneem-yad/project-portfolio-1/blob/main/readme/homepage-website.png)
+      <h2><img src="./readme/html-validator.png" alt="The W3C Markup Validator and W3C CSS Validator"></h2>
+    
+
     - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Franeem-yad.github.io%2Fproject-portfolio-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
-3. Resolution and Scaling were tested with Google Dev tools down to the lowest width device (Galaxy Fold, 280px) to ensure the website works flawlessly on all resolutions 280px and above.
+3. Resolution and Scaling were tested with Google Dev tools on iPhone SE, 375px to ensure the website works flawlessly on all resolutions 320px and above.
+      - iPhone SE resolution - [view](https://github.com/raneem-yad/project-portfolio-1/assets/156793552/5dd02925-3552-4b77-a3c0-557101f2b6f6)
+      - iPad Air - [view](https://github.com/raneem-yad/project-portfolio-1/assets/156793552/216d64c7-d79a-4e9a-9db6-dcc14891b86f)
 
-4. The Contact Us Page was tested with empty required First/Last Name and/or Email fields, entering no Email in the Email field, also with message title and with and without comments. The Form always gave the correct feedback when something was missing. When all required Information was provided, it then is posted to Code Institute's Form Dump Page.
+
+5. The Contact Us Page was tested with empty values to Full Name and Email fields, also with message title and without comments. The Form always gave the correct feedback when something was missing. When all required Information were provided,  then it is posted to Code Institute's Form  Page.
         <h2><img src="./assets/images/readme/contact-submission.png" alt="Results on Code Institute's Form Dump Page after submitting them on the contact us page"></h2>
 
 <br>
