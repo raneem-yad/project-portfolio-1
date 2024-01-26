@@ -49,7 +49,7 @@
 *   ### <a name="wireframes">Wireframes</a>
     -   Home Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/readme/homepage-website.png)
        
-    -   Wellbeing Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/readme/Recipes-website.png)
+    -   Wellbeing Page Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/readme/Recipes-website.png)
 
 
     -   Mobile Wireframe - [View](https://github.com/raneem-yad/project-portfolio-1/blob/main/readme/homepage-phone.png)
@@ -70,7 +70,7 @@
 
 - For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are examples of resolution screenshots, emulating different sizes on Google Chrome/Mac OS.
     1.  Tablet Resolution
-            <h2><img src="./readme/ipad-resolution"  alt="Picture of the page on Tablet Resolution"></h2><br>
+            <h2><img src="./readme/ipad-resolution.png"  alt="Picture of the page on Tablet Resolution"></h2><br>
     2.  Phone Resolution
             <h2><img src="./readme/phone-resolution.png" alt="Picture of the page on Phone Resolution"></h2><br>
 
@@ -121,7 +121,7 @@
 
 html-validator.png
 1. The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no syntax errors in the project.
-    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://github.com/raneem-yad/project-portfolio-1/blob/main/readme/homepage-website.png)
+    - [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Franeem-yad.github.io%2Fproject-portfolio-1%2F)
       <h2><img src="./readme/html-validator.png" alt="The W3C Markup Validator and W3C CSS Validator"></h2>
     
 
@@ -136,7 +136,7 @@ html-validator.png
 
 
 5. The Contact Us Page was tested with empty values to Full Name and Email fields, also with message title and without comments. The Form always gave the correct feedback when something was missing. When all required Information were provided,  then it is posted to Code Institute's Form  Page.
-        <h2><img src="./assets/images/readme/contact-submission.png" alt="Results on Code Institute's Form Dump Page after submitting them on the contact us page"></h2>
+        <h2><img src="./readme/contact-submission.png" alt="Results on Code Institute's Form Dump Page after submitting them on the contact us page"></h2>
 
 <br>
 
@@ -145,9 +145,9 @@ html-validator.png
 
 1. Results
 - Desktop:
-  <h2><img src="./assets/images/readme/lighthouse-live.png" alt="Results of Google Lighthouse test for Desktop devices"></h2>
+  <h2><img src="./readme/lighthouse-live.png" alt="Results of Google Lighthouse test for Desktop devices"></h2>
 - Mobile:
-  <h2><img src="./assets/images/readme/lighthouse-phone.png" alt="Results of Google Lighthouse test for Mobile devices"></h2>
+  <h2><img src="./readme/lighthouse-phone.png" alt="Results of Google Lighthouse test for Mobile devices"></h2>
 
 <br>
 
@@ -201,29 +201,25 @@ html-validator.png
 
 ### challenging Bugs
 - FontAwesome Icon Issue:
-      - Description: Attempted to add a FontAwesome icon, but it didn't display on the webpage.
-      - Investigation:
-            - Checked correct import in index.html (confirmed).
-            - Verified the entered code (correct).
-      - Resolution:
-            - Discovered the chosen icon was a pro version, requiring a subscription.
+    - Description: Attempted to add a FontAwesome icon, but it didn't display on the webpage.
+    - Investigation:
+         - Checked correct import in index.html (confirmed).
+         - Verified the entered code (correct).
+    - Solution:Discovered the chosen icon was a pro version, requiring a subscription.
 
 - Logo Image Width Issue:
-      - Description: Despite adjusting width, the logo had extra space.
-      - Cause:
-            - Transparent background in the image resulted in extra padding.
+    - Description: Despite adjusting width, the logo had extra space.
+    - Cause:Transparent background in the image resulted in extra padding.
       
           
 - Color Overlay on Image:
     - Description: Wanted to overlay an image with color.
-    - Solution:
-            - Successfully resolved using guidance from [Stack Overflow](https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image).
+    - Solution: Successfully resolved using guidance from [Stack Overflow](https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image).
 
 
 - Image Resolution Impacting Performance:
-      - Description: Images' resolution affected website performance, causing slowness.
-      - Solution:
-            - Improved performance by converting images from PNG and JPG to WebP format using [Convertio](https://convertio.co/webp-converter/).
+    - Description: Images' resolution affected website performance, causing slowness.
+    - Solution: Improved performance by converting images from PNG and JPG to WebP format using [Convertio](https://convertio.co/webp-converter/).
   
 
 <br>
@@ -291,6 +287,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   My Mentor for continuous helpful feedback.
 -   My Peers in Code Institute's Slack channel for their feedback.
--   My spouse for supporting me the whole time.
+-   My husband for supporting me the whole time.
 
 
