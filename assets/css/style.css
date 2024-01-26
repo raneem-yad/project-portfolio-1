@@ -102,6 +102,9 @@ main{
     flex: 1 0 auto;
     margin-top: 47px;
     background: linear-gradient(45deg, #e1f3e1, transparent);
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
 
  /* hero section  */
@@ -210,6 +213,7 @@ main{
 
 .service-title h2{
     text-decoration: underline;
+    margin-bottom: 10px;
 }
 
 .articles{
@@ -251,7 +255,7 @@ main{
 
 
 /* Contact us PAGE  */
-#signup {
+#contact {
     background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../images/hero.webp");
     background-size: cover;
     background-position: 75%;
@@ -259,14 +263,16 @@ main{
     flex-grow: 1;
 }
 
-#signup-form {
+
+#contact-form {
     color: #263b27;
     background-color: rgba(109, 167, 112, 0.8);
     border: 1px solid #1976d2b5;
     padding: 30px;
+    margin: 40px 0;
 }
 
-#signup-form>h2 {
+#contact-form>h2 {
     text-align: center;
     color: #263b27;
     text-decoration: underline;
@@ -442,20 +448,18 @@ footer{
     }
 
     /* contact us page  */
-    #signup {
+    #contact {
         background-position: center;
         position: relative;
     }
 
-    #signup-form {
+    #contact-form {
         max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
+        
     }
 
     .text-input:hover {
-        border-color: #f16c6b;
+        border-color: #1976d2b5;
     }
 
     .join-button:hover {
@@ -509,32 +513,28 @@ footer{
         bottom: unset;
         top: 15rem;
     }
+
     .services-space{
         width: 50rem;
     }
+
     .services-image-cover {
         max-width: 550px;
         max-height: 400px;
-    }
-
-    /* contact us page  */
-    #signup {
-        height: 100vh;
     }
 
     /* services page  */
     .service-title p{
         margin: auto 80px;
     }
-    
-    
 }
 
 @media screen and (min-width:2560px) {
-    
+
     .services{
         margin: 60px 400px 
     }
+    
     .services-space{
         width: 50rem;
     }
