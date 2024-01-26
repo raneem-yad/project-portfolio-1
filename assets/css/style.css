@@ -101,6 +101,7 @@ nav {
 main{
     flex: 1 0 auto;
     margin-top: 47px;
+    background: linear-gradient(45deg, #e1f3e1, transparent);
 }
 
  /* hero section  */
@@ -227,7 +228,7 @@ main{
 }
 
 .article-card__body {
-    padding: 8px;
+    padding: 16px;
 }
 
 .article-card__img {
