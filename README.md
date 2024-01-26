@@ -2,10 +2,7 @@
 
 [View the live project here.](https://raneem-yad.github.io/project-portfolio-1/)
 
-The story behind your website revolves around a passionate commitment to promoting a healthier lifestyle. It began with a vision to create a community-driven platform where individuals can discover and share knowledge about healthy habits. Your website serves as a beacon for those seeking guidance on nutritious recipes, effective exercise routines, and holistic wellness practices.
-
-At its core, your website is more than just a collection of health tips; it's a movement towards a more informed and health-conscious society. It's a response to the growing need for accessible, reliable information on living a balanced life in today's fast-paced world. By combining expert advice with community experiences, our site offers a unique, engaging, and supportive environment for individuals at all stages of their health journey.
-
+Healthy Hub is a vibrant community hub where individuals share and learn about healthy living. It's more than just health advice; it's a supportive space combining expert insights and real-life stories, dedicated to helping everyone achieve a balanced, fulfilling lifestyle.
 
 <h2 align="center"><img src="./assets/images/readme/website-preview.png" alt="The Story of Hachiko Webpage on multiple devices"></h2>
 
@@ -20,7 +17,7 @@ At its core, your website is more than just a collection of health tips; it's a 
         1. As a Visitor, I want to easily understand the main purpose of the site and learn more about how to be healthy.
         2. As a Visitor, I want to be able to easily navigate through the site to find content.
         3. As a visitor, I want to see the all articles that the website provides, So that I can educate myself more on healthy habits.
-        4. As a visitor, I want to be able to contact the Website, So that can send them my feedback.
+        4. As a visitor, I want to be able to contact the Website, So that I can send them my feedback.
 
 
 <br>
@@ -40,7 +37,7 @@ At its core, your website is more than just a collection of health tips; it's a 
 
   
     -   #### Imagery
-        -   The site features a large background hero image in the background (optimized for smaller devices) that embodies calmness and relaxation. It includes engaging text to capture the user's attention, clearly indicating the site's purpose.
+        -   The site features a large hero image in the background (optimized for smaller devices) that embodies calmness and relaxation. It includes engaging text to capture the user's attention, clearly indicating the site's purpose.
         -   The website features a couple of additional pictures on different pages. The articles page contains mostly all the site's advice and what is the website and the contact Page contains a large background hero image to emphasize to the user the importance of this idea. All Pictures have the alt attribute to maximize accessibility.
   
    <br>
@@ -70,9 +67,9 @@ At its core, your website is more than just a collection of health tips; it's a 
 
 - For a view of the Page on different devices, the Picture at the [Top](#top) of the Page has a good overview. The following are 3 example resolution screenshots, emulating different sizes on Google Chrome/Mac OS.
     2.  Tablet Resolution
-            <h2><img src="./assets/images/readme/homepage-tablet.png" alt="Picture of the page on Tablet Resolution"></h2><br>
+            <h2><img src="./assets/images/readme/homepage-tablet.png" width="450px" alt="Picture of the page on Tablet Resolution"></h2><br>
     3.  Phone Resolution
-            <h2><img src="./assets/images/readme/homepage-large-mobile.png" alt="Picture of the page on Phone Resolution"></h2><br>
+            <h2><img src="./assets/images/readme/homepage-large-mobile.png" width="250px" alt="Picture of the page on Phone Resolution"></h2><br>
 
 ###   Interactive elements
 
@@ -215,7 +212,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came originally from the [Love Running Project at Code Institute](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode). The same goes for the Contact Us Page code. However, none of these  remain in their original form because they have been modified and styled differently in several aspects to fit the site's needs.
+-   The full-screen hero image code came originally from the [Love Running Project at Code Institute](https://github.com/raneem-yad/love-running-website). The same goes for the Contact Us Page code. However, none of these  remain in their original form because they have been modified and styled differently in several aspects to fit the site's needs.
 
 ### Bug issues
 - Stack Overflow for helping me to figure out how to put an overlay on an image[website](https://stackoverflow.com/)
@@ -228,9 +225,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Images and Media
 -   The website logo was also created by [chatGpt](https://chat.openai.com).
 -   All images were taken from [pexel](https://www.pexels.com/).
--   Pexel Provides high-resolution images which affect the performance so I used a converter to convert them to Webp using [convertio](https://convertio.co/webp-converter/)
+-   Pexel Provides high-resolution images which affect the performance so they were converted to the Webp using [convertio](https://convertio.co/webp-converter/)
 -   Card design inspired from [codepen](https://codepen.io/1bbnuuu/pen/mdoOKGO).
--   After creating the logo images I converted them to favicon using [Favicon converter](https://favicon.io/favicon-converter/)
+-   After creating the logo images were converted to favicon using [Favicon converter](https://favicon.io/favicon-converter/)
  
 
 ### Readme
