@@ -58,7 +58,6 @@ Healthy Hub is a vibrant community hub where individuals share and learn about h
 
 <br>
 
-
 ## Features
 
 ###   Responsive on all device sizes
