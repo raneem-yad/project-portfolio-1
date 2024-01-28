@@ -62,6 +62,52 @@
 
 ## Features
 
+### Sitewide
+* Navigation Menu
+    * Contains links to the Home, Wellbeing and Contact pages and will be responsive on all devices.
+    * This will allow users to easily navigate between the pages within the site on any size device. 
+
+![Nav Menu](./readme/nav_bar.png)
+* Footer
+    * This will contain our community Logo, website name and icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. Another part of the footer will contain important links to the website which provide easy access to other pages. Another part shows that there is a copyright on the website.
+    * This will allow the user to follow our community on various social media where they can get more up-to-date information that may not be displayed on the website.
+![Footer](./readme/footer.png)
+
+* Favicon
+    * The Website has Favicon which will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
+
+![Favicon](./readme/favicon.png)
+
+
+### Landing Page
+* Landing page image
+    * To get a good first impression and the user can be more informed about the website and what it provides 
+
+![Landing Page Image](./readme/landing_page.png)
+* Three more informational sections
+    * brief information about the community with interactive buttons that take the user to more info about specific section
+
+![First Brief Section](./readme/brief_section)
+
+### Wellbeing Page
+* Wellbeing
+    * This page will explain the three most important activities to live a healthy life: healthy recipes - exercises - Wellness and lifestyle
+    * Each section has a title and descriptive info about what the section is about and more articles about this section to be read. 
+
+![Wellbeing Page](./readme/wellbeing_page.png)
+
+
+### Contact Us Page
+    * A contact form was implemented to allow users to contact The community in order to send their feedback or suggestions. 
+    The form will consist of the following fields and attributes: 
+        * Full Name (required, type=text)
+        * Email (required, type=email)
+        * Message title (required, type=text)
+        * Message (required, type=textarea)
+    
+![Contact Us Page](./readme/contact_page.png)
+
+
 ###   Responsive on all device sizes
 
 - The Page adjusts itself to 5 different sizes devices over 2600px wide (4k and Ultra wide Screens), 2600px to 1250px wide (most common Desktop/Laptop Display Resolutions), 1250px to 950px (to target tablet wide resolutions), 950px to 650px (bigger mobile resolutions) and 650px-360px (most mobile resolutions).
