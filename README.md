@@ -87,7 +87,7 @@
 * Three more informational sections
     * brief information about the community with interactive buttons that take the user to more info about specific section
 
-![First Brief Section](./readme/brief_section)
+![First Brief Section](./readme/brief_section.png)
 
 ### Wellbeing Page
 * Wellbeing
@@ -98,8 +98,8 @@
 
 
 ### Contact Us Page
-    * A contact form was implemented to allow users to contact The community in order to send their feedback or suggestions. 
-    The form will consist of the following fields and attributes: 
+* A contact form was implemented to allow users to contact The community in order to send their feedback or suggestions.
+    * The form will consist of the following fields and attributes: 
         * Full Name (required, type=text)
         * Email (required, type=email)
         * Message title (required, type=text)
